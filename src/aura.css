@@ -1,0 +1,106 @@
+body{
+    background: url('pictures.jpg/sunset.png' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px auto;
+    text-align: center;
+    font-family: serif;
+}
+
+#weather-app{
+    background-color:rgba(255, 255, 255, 0.926);
+    max-width: 50%;
+    border-radius: 10px;
+    
+    margin: 30px auto;
+    padding: 60px;
+    
+}
+ 
+#text-input{
+    padding: 25px;
+    border: 10px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    font-size: 24px;
+}
+#button-input{
+    background-color: rgb(4, 12, 52);
+    color: white;
+    padding: 25px;
+    border: 10px;
+    border-radius: 10px;
+     margin: auto;
+     margin-left: 6px;
+     margin-bottom: 9px;
+    font-size: 24px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid  rgba(128, 128, 128, 0.589);
+    text-align: start;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    padding: 10px;
+}
+
+h1{
+    text-align: start;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 19px;
+    margin: 6px;
+    line-height: 15px;
+    text-align: left;
+    color: #808080fc;
+}
+
+#paragraph-one strong{
+    color: rgb(122, 9, 27);
+}
+
+#paragraph-two strong{
+    color:  rgb(122, 9, 27);
+}
+
+#cloud-text{
+   display: flex;
+}
+
+#rain-icon{
+    font-size: 40px;
+    margin-top: 42px;
+
+}
+
+#temperature{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 42px ;
+}
+
+#temperature-unit{
+    margin-top: 53px;
+    font-size: 30px;
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 17px;
+    border-top: 1px solid rgba(128, 128, 128, 0.589);
+    padding-top: 25px;
+   
+}
+
+footer a{
+    color: rgb(23, 33, 219);
+}

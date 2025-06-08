@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aura Weather</title>
+    <link rel="stylesheet" href="src/aura.css">
 </head>
 <body>
-    <div>
+    <div id="weather-app">
+    <header>
+    <div >
         <form >
-            <input type="text" placeholder="Enter the city">
-            <input type="button" value="Search">
+            <input type="text" placeholder="Enter a city" id="text-input">
+            <input type="button" value="Search" id="button-input">
         </form>
     </div>
+    </header>
+
+    <main>
     <div>
         <h1>Cape Town</h1>
-        <p>Tuesday 13:12 Scaterd Clouds
-            <br>
-           Humidity:56% Wind:3.11km/h
-        </p>
-        <div>🌦️ 20°C</div>
+        <p id="paragraph-one">Tuesday, 13:12 Scaterd Clouds</p>
+        <p id="paragraph-two">   Humidity: <strong>56%</strong> Wind: <strong>3.11km/h</strong></p>
+        
+         
     </div>
+    <div id="cloud-text">
+     <div id="rain-icon">🌦️ </div>
+     <div id="temperature">20</div>
+     <div id="temperature-unit">°C</div>
+     </div>
+    </main>
 
     <footer>
         This was coded by 
@@ -27,6 +38,6 @@
         <a href="">GitHub</a> and hosted on 
         <a href="">Netlify</a>
     </footer>
-    
+    </div>
 </body>
 </html>
