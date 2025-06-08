@@ -75,15 +75,16 @@ p{
 }
 
 #rain-icon{
-    font-size: 40px;
-    margin-top: 42px;
+    font-size: 32px;
+    margin-top: 55px;
 
 }
 
 #temperature{
-    font-size: 60px;
+    font-size: 66px;
     font-weight: bold;
     margin-top: 42px ;
+    margin-left: 7px;
 }
 
 #temperature-unit{
@@ -97,7 +98,7 @@ footer{
     margin-top: 15px;
     font-size: 17px;
     border-top: 1px solid rgba(128, 128, 128, 0.589);
-    padding-top: 25px;
+    padding-top: 50px;
    
 }
 
