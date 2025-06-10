@@ -1,11 +1,10 @@
 
 function SubmitEvent(event) {
     event.preventDefault();
-    let placeHolder = document.querySelector("#placeholder-input");
+    let placeHolder = document.querySelector("#text-input");
     let cityElement = document.querySelector("#city");
     cityElement.innerHTML= placeHolder.value;
-    
-    
+
 }
 
 

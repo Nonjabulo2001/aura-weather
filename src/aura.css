@@ -69,7 +69,7 @@ p{
 .paragraph-two strong{
     color:  rgb(122, 9, 27);
 }
-.cloud-text{
+#cloud-text{
    display: flex;
 }
 
