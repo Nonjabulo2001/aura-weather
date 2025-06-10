@@ -1,12 +1,9 @@
-function handleEvent(event) {
-    event.preventDefault();
-    let textInput = document.querySelector("#text-input");
-    let cityElement = document.querySelector("#city");
-    cityElement = textInput.value;
-    
-    
+function signUp(event) {
+  event.preventDefault();
+  let input = document.querySelector("#text-input");
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = input.value;
 }
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", signUp);
 
-
-let searchButton =  document.querySelector("#search-form");
-searchButton.addEventListener("submit", handleEvent);
