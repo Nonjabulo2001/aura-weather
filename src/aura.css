@@ -92,6 +92,51 @@ p{
     font-size: 30px;
 
 }
+.weather-forecast{
+    display: flex;
+
+}
+.weather-forecast-date{
+    font-size: 19px;
+    text-align: center;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.329);
+    margin-bottom: 10px;
+}
+
+
+
+
+.weather-forecast-temperature{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+    color: rgb(122, 9, 27); 
+    margin-top: 10px;
+
+   
+}
+
+
+
+
+.forecast-icon{
+    font-size: 37px;
+    text-align: center;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     text-align: center;
