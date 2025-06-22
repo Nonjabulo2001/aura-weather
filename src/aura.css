@@ -1,6 +1,7 @@
 
 body {
-  background-color: #f9f7fe;
+  background-color: #b3afc63a;
+  background-position: center;
   font-family: "Roboto", sans-serif;
 }
 
@@ -32,7 +33,7 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #3313d2;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -58,7 +59,7 @@ main {
 
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(128, 128, 128, 0.715);
   line-height: 24px;
   font-weight: 500;
 }
@@ -106,7 +107,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #e51818dc;
   margin-top: 10px;
   display: flex;
   justify-content: center;
